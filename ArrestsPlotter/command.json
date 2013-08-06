@@ -1,0 +1,32 @@
+{
+    "originalViewId":"3i3v-ibrt",
+    "name":"Inline View",
+    "query":{
+        "filterCondition":{
+            "type" : "operator",
+            "value" : "AND",
+            "children":[
+                        {
+                        "type":"operator",
+                        "value":"EQUALS",
+                        "children":[ {
+                                    "type":"column",
+                                    "columnFieldName": "race"
+                                    }, {
+                                    "type":"literal",
+                                    "value": "F"
+                                    } ]
+                        },{
+                        "type":"operator",
+                        "value":"EQUALS",
+                        "children":[ {
+                                    "type":"column",
+                                    "columnFieldName": "district"
+                                    }, {
+                                    "type":"literal",
+                                    "value": "SOUTHEASTERN"
+                                    } ]
+                        }]
+        }
+    }
+}
